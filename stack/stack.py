@@ -97,6 +97,9 @@ def main():
     print("\ntrying to peek the stack")
     my_stack.peek()
 
+    print("\nis stack empty?")
+    print(my_stack.is_empty())
+
 
 if __name__ == '__main__':
     main()
